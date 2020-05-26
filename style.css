@@ -1,0 +1,78 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(255, 255, 255, 0.603);
+}
+
+.header {
+  background-color: coral;
+  top: 0;
+  width: 100%;
+}
+
+.vacancy {
+  margin: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 0px 0px 16px 0px rgba(103, 187, 235, 0.55);
+  border-radius: 5px;
+  min-width: 500px;
+  padding: 8px;
+}
+
+.vacancy:hover {
+  box-shadow: 0px 0px 11px 0px rgb(231, 128, 44);
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(0, 153, 255);
+}
+
+a:visited {
+  color: black;
+}
+
+.res {
+  color: deeppink;
+}
+
+.description {
+  font-style: italic;
+  font-size: smaller;
+}
+
+.address {
+  font-size: smaller;
+  color: rgb(0, 125, 175);
+  font-weight: bold;
+}
+
+.contacts {
+  font-size: smaller;
+  color: rgb(12, 175, 0);
+  font-weight: bold;
+}
+
+button {
+  height: 50px;
+  background-color: cornflowerblue;
+  border: 1px dotted black;
+  font-size: large;
+  font-weight: 900;
+  color: white;
+  padding: 8px;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 25%;
+  min-width: 200px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
